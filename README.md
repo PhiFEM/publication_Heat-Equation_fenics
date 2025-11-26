@@ -35,13 +35,13 @@ It contains also the following python libraries and their dependencies:
    ```bash
    export CONTAINER_ENGINE=docker
    cd heat-equation-phifem
-   sudo -E bash pull_image.sh
+   sudo -E bash pull-image.sh
    ```
 
 3) Launch the container:
 
    ```bash
-   sudo -E bash run_image.sh
+   sudo -E bash run-image.sh
    ```
 
 ### Example of usage
